@@ -1,0 +1,58 @@
+body{
+    font-family: 'Titillium Web';
+    margin-left: 40px ;
+}
+
+.container{
+    width:500px;
+}
+
+.item{
+    width:400px;
+    height: 50px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+content .itemDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#papelera{
+    position: relative;
+    left: 350px;
+}
+
+.item p.texto{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:5px;
+    background-color: #FFF;
+    max-width:285px;
+}
+
+#checkBox{
+    position: absolute;
+    
+}
+
+.limpiar i{
+    float: right;
+}
+
