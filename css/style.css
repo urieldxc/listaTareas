@@ -5,6 +5,15 @@ body{
 
 .container{
     width:500px;
+    margin-left: 100px;
+    margin:0 auto;
+  
+  
+}
+.container h1{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
 }
 
 .item{
@@ -45,6 +54,7 @@ content .itemDiv{
     top:5px;
     background-color: #FFF;
     max-width:285px;
+    line-height: 36px;
 }
 
 #checkBox{
@@ -56,3 +66,37 @@ content .itemDiv{
     float: right;
 }
 
+#iconoEnviar{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.insertar-item{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+#input{
+    height: 30px;
+    margin-top: 10px;
+    font-family: 'Titillium Web';
+    font-size: 16px;
+}
+.tachado{
+    text-decoration: line-through;
+    color:Green;
+}
+.tachado p{
+    text-decoration: line-through;
+    color:Green;
+
+}
+.fa-check-square{
+    
+    color:Green; 
+}
+.fa-trash-alt{
+    color:black;
+    text-decoration: none;
+}
