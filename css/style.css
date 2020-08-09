@@ -1,10 +1,19 @@
 body{
     font-family: 'Titillium Web';
-    margin-left: 40px ;
+    
 }
 
 .container{
-    width:500px;
+    width:400px;
+    
+    margin:0 auto;
+  
+  
+}
+.container h1{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
 }
 
 .item{
@@ -33,7 +42,7 @@ content .itemDiv{
 }
 #papelera{
     position: relative;
-    left: 350px;
+    left: 330px;
 }
 
 .item p.texto{
@@ -45,6 +54,7 @@ content .itemDiv{
     top:5px;
     background-color: #FFF;
     max-width:285px;
+    line-height: 36px;
 }
 
 #checkBox{
@@ -56,3 +66,145 @@ content .itemDiv{
     float: right;
 }
 
+#iconoEnviar{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.insertar-item{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+#input{
+    height: 30px;
+    margin-top: 10px;
+    font-family: 'Titillium Web';
+    font-size: 16px;
+}
+.tachado{
+    text-decoration: line-through;
+    color:Green;
+}
+.tachado p{
+    text-decoration: line-through;
+    color:Green;
+
+}
+.fa-check-square{
+    
+    color:Green; 
+}
+.fa-trash-alt{
+    color:black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-family: 'Titillium Web';
+        transform: scale(0.7);
+        transform-origin: 0 0;
+   
+    }
+    
+    .container{
+        width:400px;
+        
+        margin:0 auto;
+      
+      
+    }
+    .container h1{
+        margin-left: 50px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .item{
+        width:400px;
+        height: 50px;
+        min-height: 45px;
+        position: relative;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    .item i.co{
+        position: absolute;
+        font-size: 25px;
+        padding-left:5px;
+        left:15px;
+        top:10px;
+    }
+    content .itemDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #papelera{
+        position: relative;
+        left: 330px;
+    }
+    
+    .item p.texto{
+        position: absolute;
+        padding:0;
+        margin:0;
+        font-size: 20px;
+        left:50px;
+        top:5px;
+        background-color: #FFF;
+        max-width:285px;
+        line-height: 36px;
+    }
+    
+    #checkBox{
+        position: absolute;
+        
+    }
+    
+    .limpiar i{
+        float: right;
+    }
+    
+    #iconoEnviar{
+        font-size: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .insertar-item{
+        display: flex;
+        align-items: center;
+        margin-left: 35px;
+    }
+    
+    #input{
+        height: 30px;
+        margin-top: 10px;
+        font-family: 'Titillium Web';
+        font-size: 16px;
+    }
+    .tachado{
+        text-decoration: line-through;
+        color:Green;
+    }
+    .tachado p{
+        text-decoration: line-through;
+        color:Green;
+    
+    }
+    .fa-check-square{
+        
+        color:Green; 
+    }
+    .fa-trash-alt{
+        color:black;
+        text-decoration: none;
+    }
+    
+  }
